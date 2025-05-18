@@ -45,7 +45,7 @@ Using machine learning models including **polynomial regression**, **ridge regre
 
 ---
 
-## 🏛Business & Policy Application
+## Business & Policy Application
 
 This framework offers real value to **economic policymakers and analysts**, enabling data-driven understanding of how macro conditions influence public sentiment. It also supports **early warning systems** by examining sentiment's ability to forecast future economic realities, especially in consumer-driven sectors like housing and retail.
 
