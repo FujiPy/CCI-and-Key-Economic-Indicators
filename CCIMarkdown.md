@@ -42,6 +42,8 @@ Collection Frequencies: Monthly and/or Quarterly
 
 -   **[Data Overview & Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Overview-&-Understanding)**
 
+    -   Import Data Set
+      
     -   Data Set Basics & Structure
 
     -   Key Variables/Columns
@@ -52,72 +54,45 @@ Collection Frequencies: Monthly and/or Quarterly
 
 -   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Preperatin)**
 
-    -   Outliers
+    -   Data Set Notes
+      
+    -    Reorganize
  
-    -   Missing Data & Cleaning 
+    -   Missing Data & Cleaning
+ 
+    -   Summary Statistics
+ 
+    -   Visualize & Analyze Distributions & Correlations
 
-    -   Model Input Selection
-
-    -   Regularization, Transformation, Scaling Notes
--   **[Distributions & Assumptions](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Distributions-&-Assumptions)**
-
-    -   Time-Series Plots: Monthly-averaged Variables
-
-    -   Distribution of Variables
-
-    -   Check for Distribution Assumptions
-
-        -   Correlation & Multicollinearity (VIF)
-
-        -   Normality/Kurtosis (Skew)
-
-        -   Linearity
-
-        -   Heteroskedasticity (Residual Variance)
+    -   Distribution Assumptions
+          
+    -   Final Model Adjustments & Notes
+      
 
 -   **[Machine Learning Models & Performance](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Machine-Learning-Models-&-Performance)**
+    -   Model Descriptions
+      
+    -   Regression Models with CCI as Target
 
-    -   Objective 1: Strength of relationship between Key Economic Indicators and CCI
+    -   Random Forest Model with CCI as Target
 
-        -   Polynomial Regression: Economic Indicators as input and CCI as target variable.
+           - Feature Importance 
 
-        -   Polynomial Regression w/ Ridge Regularization: Economic Indicators as input and CCI as target variable
-
-        -   Random Forest model with Economic Indicators as input and CCI as target variable
-
-    -   Objective 2: CCI as forecasting tool for future economic indicators
-
-        -   Random Forest Regressor for CCI as 6 month Forward Forecasting (Leading) Indicator
-
+    -   Random Forest Model for CCI as forecaster
+        
 -   **[Evauations, Conclusions, & Findings](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Evaluation,-Conclusions,-&-Findings)**
 
     -   Notes on Performance Metrics
 
-    -   1st Objective Model Evaluations
-
-        -   Poly Regression Analysis
-
-        -   Poly Regression w/ Ridge Analysis
-
-        -   Random Forest Analysis
-
-    -   2nd Objective Model Evaluation
-
-        -   Random Forest Lagged Forecast Model Analysis
-
-    -   Final Insights and Conclusion
-
+    -   Conclusions
+    
+    -   Final Insights
+      
+-   **[Business Applications](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Business-Applications)**
+  
 -   **[Next Steps & Potential Continuations](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Next-Steps-&-Potential-Continuations)**
 
--   **[More Information & Links](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#More-Information-&-Links)**
-
-    -   Run Notebook on Google Colab
-
-    -   IO Page
-
-    -   Inquiries
-
-    -   Data Source
+-   **[Inquiries](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Inquiries)**
 
 ------------------------------------------------------------------------
 
