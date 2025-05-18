@@ -1,6 +1,7 @@
 
 # Consumer Confidence Index & Key Economic Indicator EDA
 
+### **Project Links**
 Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-per-capita-gov-expenditure-trade
 
 Link to Interactive Colab Notebook: [Colab Link: Jupyter Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=cKZvO69tHc3d&uniqifier=1)
@@ -12,7 +13,7 @@ Link to Youtube Project Process Walkthrough:
 Link to Youtube Project Presentation:
 
 
-**Data Set Info:**
+### **Data Set Info:**
 
 Source: Kaggle Data Set compiled from FRED official website, demographic data from OECD and Consumer Confidence Index from Conference Board.
 
