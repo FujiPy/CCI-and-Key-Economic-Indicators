@@ -1,24 +1,116 @@
 
-# Predicting Economic Conditions from Consumer Confidence
-
+# Consumer Confidence Index & Key Economic Indicator EDA
 
 Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-per-capita-gov-expenditure-trade
 
-
-
-
 **Data Set Info:**
 
-Source: Kaggle Data Set compiled from FRED official website, demographic data from OECD and consumer confidence Index from Conference Board.
+Source: Kaggle Data Set compiled from FRED official website, demographic data from OECD and Consumer Confidence Index from Conference Board.
 
 Author: Sagar Varandekar
 
-Date Range: 05/2002 - 05/2022
+Period: 05/2002 - 05/2022 (2019-01)
 
 Collection Frequencies: Monthly and/or Quarterly
 
+------------------------------------------------------------------------
+## Index:
+
+-   **Introduction**
+
+    -   Kaggle Source Data Info & Link
+
+    -   Background
+
+        -   Economic Indicators & Business Cycle
+
+        -   Consumer Confidence Index
+
+    -   Project Objectives
+
+-   **Data Overview & Understanding**
+
+    -   Data Set Structure
+
+    -   Key Variables/Columns
+
+    -   Missing Data
+
+    -   Summary Statistics (post data-preparation)
+
+-   **Exploratory Data Analysis**
+
+    -   Time-Series Plots: Monthly-averaged Variables
+
+    -   Distribution of Variables
+
+    -   Check for Distribution Assumptions
+
+        -   Correlation & Multicollinearity (VIF)
+
+        -   Normality/Kurtosis (Skew)
+
+        -   Linearity
+
+        -   Heteroskedasticity (Residual Variance)
+
+-   **Data Preperation**
+
+    -   Outliers
+
+    -   Model Input Selection
+
+    -   Regularization, Transformation, Scaling Notes
+
+-   **Machine Learning Models & Performance**
+
+    -   Objective 1: Strength of relationship between Key Economic Indicators and CCI
+
+        -   Polynomial Regression: Economic Indicators as input and CCI as target variable.
+
+        -   Polynomial Regression w/ Ridge Regularization: Economic Indicators as input and CCI as target variable
+
+        -   Random Forest model with Economic Indicators as input and CCI as target variable
+
+    -   Objective 2: CCI as forecasting tool for future economic indicators
+
+        -   Random Forest Regressor for CCI as 6 month Forward Forecasting (Leading) Indicator
+
+-   **Evauations, Conclusions, & Findings**
+
+    -   Notes on Performance Metrics
+
+    -   1st Objective Model Evaluations
+
+        -   Poly Regression Analysis
+
+        -   Poly Regression w/ Ridge Analysis
+
+        -   Random Forest Analysis
+
+    -   2nd Objective Model Evaluation
+
+        -   Random Forest Lagged Forecast Model Analysis
+
+    -   Final Insights and Conclusion
+
+-   **Next Steps & Potential Continuations**
+
+-   **More Information & Links**
+
+    -   Run Notebook on Google Colab
+
+    -   IO Page
+
+    -   Inquiries
+
+    -   Data Source
+
+------------------------------------------------------------------------
+
 # Business Understanding
 
+Target Variable: Consumer Confidence Index (CCI)
 
 ## **Background:**
 **Relevant Educational Links: (Investopedia)**
@@ -282,9 +374,9 @@ df.select_dtypes(include='number').describe().T.round(2)
     </button>
 
 
+## Date-Time Variable Interval
 
 ```python
-# @title Date-Time Variable Interval
 min(df['DATE']), max(df['DATE'])
 ```
 
