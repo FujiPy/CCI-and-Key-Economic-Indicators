@@ -3,7 +3,7 @@
 
 Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-per-capita-gov-expenditure-trade
 
-Link to Interactive Colab: [Colab Link: Jupyter Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=cKZvO69tHc3d&uniqifier=1)
+Link to Interactive Colab Notebook: [Colab Link: Jupyter Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=cKZvO69tHc3d&uniqifier=1)
 
 Link to Youtube Walkthrough Video: 
 
