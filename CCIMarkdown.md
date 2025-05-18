@@ -61,9 +61,9 @@ There are two objectives for this project:
 
 # Data Understanding & Preperation
 
-
+## Import Data Set: Shape, Columns, & Head
 ```python
-# @title Import Data Set: Shape, Columns, & Head
+
 
 import pandas as pd
 
@@ -120,8 +120,8 @@ print(df.head())
     4    124.780  
 
 
+## Summary Statistics: Data Set Pre-cleaning & Preperation (Transposed)
 ```python
-# @title Summary Statistics: Data Set Pre-cleaning & Preperation (Transposed)
 
 df.select_dtypes(include='number').describe().T.round(2)
 ```
