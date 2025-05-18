@@ -7,7 +7,7 @@ Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-pe
 
 
 
-**Data Set:**
+**Data Set Info:**
 
 Source: Kaggle Data Set compiled from FRED official website, demographic data from OECD and consumer confidence Index from Conference Board.
 
