@@ -40,7 +40,7 @@ Collection Frequencies: Monthly and/or Quarterly
     -   Project Objectives
  
 
--   **[Data Overview & Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Overview-&-Understanding)**
+-   **[Data Overview & Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#data-overview-&-understanding)**
 
     -   Import Data Set
       
