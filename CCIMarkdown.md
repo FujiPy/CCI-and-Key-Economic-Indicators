@@ -52,7 +52,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Summary Statistics 
 
--   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Preperatin)**
+-   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Understanding_&_Preperatin)**
 
     -   Data Set Notes
       
