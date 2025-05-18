@@ -27,7 +27,7 @@ This project explores the relationship between the **Consumer Confidence Index (
 1. **Analyze how current macroeconomic conditions shape consumer sentiment** using regression models.
 2. **Evaluate whether CCI can serve as a leading indicator** to forecast future economic outcomes.
 
-Using machine learning models including **polynomial regression**, **ridge regression**, and **random forests**, we quantified both coincident and forward-looking relationships between economic fundamentals and CCI. We also visualized variable trends over time and examined feature importance across models.
+Using machine learning models including **polynomial regression**, **ridge regression**, and **random forests**, I quantified both coincident and forward-looking relationships between economic fundamentals and CCI. I also visualized variable trends over time and examined feature importance across models.
 
 ---
 
