@@ -18,7 +18,8 @@ Collection Frequencies: Monthly and/or Quarterly
 
 -  Kaggle Source Data Info & Link
   
--   **Introduction**
+- **[Business Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#business-understanding)**
+
 
     -   Abstract
  
@@ -31,7 +32,7 @@ Collection Frequencies: Monthly and/or Quarterly
         -   Consumer Confidence Index
  
 
--   **Data Overview & Understanding**
+-   **[Data Overview & Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Overview-&-Understanding)**
 
     -   Data Set Basics & Structure
 
@@ -43,7 +44,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Summary Statistics 
 
--   **Exploratory Data Analysis**
+-   **[Distributions & Assumptions(https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Distributions-&-Assumptions)**
 
     -   Time-Series Plots: Monthly-averaged Variables
 
@@ -59,7 +60,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
         -   Heteroskedasticity (Residual Variance)
 
--   **Data Preperation**
+-   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Preperatin)**
 
     -   Outliers
 
@@ -67,7 +68,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Regularization, Transformation, Scaling Notes
 
--   **Machine Learning Models & Performance**
+-   **[Machine Learning Models & Performance](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Machine-Learning-Models-&-Performance)**
 
     -   Objective 1: Strength of relationship between Key Economic Indicators and CCI
 
@@ -81,7 +82,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
         -   Random Forest Regressor for CCI as 6 month Forward Forecasting (Leading) Indicator
 
--   **Evauations, Conclusions, & Findings**
+-   **[Evauations, Conclusions, & Findings](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Evaluation,-Conclusions,-&-Findings)**
 
     -   Notes on Performance Metrics
 
@@ -99,9 +100,9 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Final Insights and Conclusion
 
--   **Next Steps & Potential Continuations**
+-   **[Next Steps & Potential Continuations](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Next-Steps-&-Potential-Continuations)**
 
--   **More Information & Links**
+-   **[More Information & Links](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#More-Information-&-Links)**
 
     -   Run Notebook on Google Colab
 
