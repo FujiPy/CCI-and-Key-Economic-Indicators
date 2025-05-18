@@ -16,27 +16,32 @@ Collection Frequencies: Monthly and/or Quarterly
 ------------------------------------------------------------------------
 ## Index:
 
+-  Kaggle Source Data Info & Link
+  
 -   **Introduction**
 
-    -   Kaggle Source Data Info & Link
+    -   Abstract
+ 
+    -   Project Objectives
 
     -   Background
 
         -   Economic Indicators & Business Cycle
 
         -   Consumer Confidence Index
-
-    -   Project Objectives
+ 
 
 -   **Data Overview & Understanding**
 
-    -   Data Set Structure
+    -   Data Set Basics & Structure
 
     -   Key Variables/Columns
+      
+    -   Variable Breakdown
 
-    -   Missing Data
+    -   Missing Data & Cleaning 
 
-    -   Summary Statistics (post data-preparation)
+    -   Summary Statistics 
 
 -   **Exploratory Data Analysis**
 
