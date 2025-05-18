@@ -31,15 +31,13 @@ Collection Frequencies: Monthly and/or Quarterly
 - **[Business Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#business-understanding)**
 
 
-    -   Abstract
- 
-    -   Project Objectives
-
     -   Background
 
         -   Economic Indicators & Business Cycle
 
         -   Consumer Confidence Index
+          
+    -   Project Objectives
  
 
 -   **[Data Overview & Understanding](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Overview-&-Understanding)**
