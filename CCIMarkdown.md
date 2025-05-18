@@ -139,7 +139,7 @@ There are two objectives for this project:
 
 
 
-# Data Understanding & Preperation
+# Data Overview & Understanding
 
 ## Import Data Set: Shape, Columns, & Head
 ```python
