@@ -19,6 +19,7 @@
 - [Video Presentation]()
 - [Full Project Markdown File](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md)
 - [Kaggle Data Set](https://www.kaggle.com/datasets/sagarvarandekar/macroeconomic-factors-affecting-us-housing-prices/data)
+- [ReadME .io Webpage](https://fujipy.github.io/CCI-and-Key-Economic-Indicators/)
 
 ---
 
