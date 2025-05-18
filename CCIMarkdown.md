@@ -384,13 +384,18 @@ df.select_dtypes(include='number').describe().T.round(2)
 ## Date-Time Variable Interval
 
 ```python
-min(df['DATE']), max(df['DATE'])
+import pandas as pd
+min_date = pd.to_datetime(df['DATE']).min()
+max_date = pd.to_datetime(df['DATE']).max()
+
+print(f"Minimum date: {min_date}")
+print(f"Maximum date: {max_date}")
 ```
 
 
+(Minimum date: 2002-01-05 00:00:00)
+(Maximum date: 2022-01-05 00:00:00)
 
-
-    ('01-01-2003', '01-12-2021')
 
 
 
