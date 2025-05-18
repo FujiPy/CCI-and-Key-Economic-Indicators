@@ -66,9 +66,13 @@ This framework offers real value to **economic policymakers and analysts**, enab
 ##  File Structure
 
 Colab Repository Structure:
+
 ├── CCIMarkdown_files    #Markdown Images
+
 ├── CCIMarkdown.md       #Full Project File in markdown format with code, notes, descriptions & links
+
 ├── US_MACRO_DATA.csv    # Raw Dataset
+
 └── README.md            # This READ ME File 
 
 
