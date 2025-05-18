@@ -59,9 +59,9 @@ This framework offers real value to **economic policymakers and analysts**, enab
 
 ## Software Used
 
-- **Python** (Pandas, scikit-learn, matplotlib, seaborn)
-- **Google Colab**
-- **GitHub** (for versioning & documentation)
+- **Google Colab** (EDA and Machine Learning Models)
+- **R-Studio** (Initial Markdown Development)
+- **GitHub** (Upload, Versioning, & documentation)
 
 ---
 
