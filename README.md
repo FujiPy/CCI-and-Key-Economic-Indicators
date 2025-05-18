@@ -45,7 +45,7 @@ Using machine learning models including **polynomial regression**, **ridge regre
 ### Feature Correlation Matrix 
 ![png](CCIMarkdown_files/CCIMarkdown_37_0.png)
 ### Random Forest Regression Model with CCI as Target Scatter Plot
-
+![png](CCIMarkdown_files/CCIMarkdown_61_1.png)
 
 ---
 
