@@ -2,7 +2,7 @@
 # Consumer Confidence Index & Key Economic Indicator EDA
 
 ### **Project Links**
-Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-per-capita-gov-expenditure-trade
+Link to Kaggle Data Set: https://www.kaggle.com/datasets/sagarvarandekar/macroeconomic-factors-affecting-us-housing-prices
 
 Link to Interactive Colab Notebook: [Colab Link: Jupyter Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=cKZvO69tHc3d&uniqifier=1)
 
