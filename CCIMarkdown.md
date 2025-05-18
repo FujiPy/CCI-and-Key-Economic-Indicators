@@ -454,9 +454,8 @@ Quarterly Data points such as 'Quarterly Real GDP' and 'Quarterly Real GDP Growt
 
 # 1.) Reorganize Data Set Rows Chronologically
 
-
+## Flip Data Set so Dates Progress from earliest to most recent
 ```python
-# @title Flip Data Set so Dates are move from earliest to most recent
 df = df.iloc[::-1].reset_index(drop=True)
 print(df.head())
 
@@ -493,9 +492,8 @@ print(df.head())
 
 # 2.) Check For and Remove Missing Data
 
-
+## Check for Missing Values & Heatmap
 ```python
-# @title Check for Missing Values & Heatmap
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -515,10 +513,8 @@ plt.show()
     
 
 
-
+## Missing values Shown Chronologically by month
 ```python
-# @title Missing values Shown Chronologically by month
-
 import pandas as pd
 
 # Assuming your DataFrame is named 'df' and the date column is 'Date'
@@ -565,10 +561,8 @@ for col in cols_with_missing:
     
 
 
-
+## Remove Missing Values (dates from 2021 and 2022), values end at most recent date 05/2020
 ```python
-
-# @title Remove Missing Values (dates from 2021 and 2022), values end at most recent date 05/2020
 df['DATE'] = pd.to_datetime(df['DATE'])
 df = df[df['DATE'] <= '2020-01-05']
 print(df.tail())
@@ -613,9 +607,8 @@ Note the abnormal values for the remaining early 2020 data, especially the negat
 
 Initially discovered in Wuhan, China, in late 2019, COVID-19 entered the conversation in the U.S. in January 2020. At that time, the Centers for Disease Control and Prevention (CDC) alerted the nation of the outbreak abroad. In order to safely remove any influence of the pandemic in our analysis we will remove any dates after April 2019.
 
-
+## Remove data affected by Early Covid Shocks (Last date w/ values: 2019-01-05)
 ```python
-# @title Remove data affected by Early Covid Shocks (Last date w/ values: 2019-01-05)
 
 df['DATE'] = pd.to_datetime(df['DATE'])
 df = df[df['DATE'] <= '2019-01-05']
@@ -690,9 +683,8 @@ print(df.tail())
 
 # 4.) Flip Shiller-Home Price Index Values
 
-
+## 4.) Reverse Values of CSUSHPISA column (The data was entered backwards in the original dataset)
 ```python
-# @title 5.) Reverse Values of CSUSHPISA column (The data was entered backwards in the original dataset)
 
 # Assuming 'df' is your DataFrame and 'CSUSHPISA' is the column name for the Shiller-Home Price Index
 # Reverse one column and reassign it safely
@@ -761,10 +753,8 @@ print(df.tail())
 
 # 5.) Summary Statistics
 
-
+## Summary Statistics: Cleaned & Prepped Data Set (Transposed)
 ```python
-# @title Summary Statistics: Cleaned & Prepped Data Set (Transposed)
-
 df.select_dtypes(include='number').describe().T.round(2)
 ```
 
@@ -1139,9 +1129,8 @@ df.select_dtypes(include='number').describe().T.round(2)
 
 
 
-
+## Date-Time Variable Interval
 ```python
-# @title Date-Time Variable Interval
 min(df['DATE']), max(df['DATE'])
 ```
 
@@ -1157,9 +1146,8 @@ min(df['DATE']), max(df['DATE'])
 
 
 
-
+## Variable Time-series Plots with monthly averages
 ```python
-# @title Variable Time-series Plots with monthly averages
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -1266,8 +1254,8 @@ for var in variables_to_plot:
 
 
 
+## Variable Distribution Visuals
 ```python
-# @title Variable Distribution Visuals
 
 
 import matplotlib.pyplot as plt
@@ -1319,9 +1307,8 @@ plt.show()
 
 # Correlation Checks
 
-
+## Correlation Matrix
 ```python
-# @title Correlation Matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -1364,9 +1351,8 @@ plt.show()
 
 
 
-
+## Variance Inflation Factor (VIF) Test for Each Feature:
 ```python
-# @title Variance Inflation Factor (VIF) Test for Each Feature:
 
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.tools.tools import add_constant
@@ -1697,11 +1683,8 @@ most closely tied to media headlines and public perception.
 
 # 7.) Check Distribution Assumptions
 
-
+## Check for Normality/Kurtosis (Skew): Shapiro-Wilk & D'Agostino's K-squared Test
 ```python
-# @title Check for Normality/Kurtosis (Skew): Shapiro-Wilk & D'Agostino's K-squared Test
-
-
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import shapiro, normaltest, anderson
@@ -1750,7 +1733,7 @@ for col in vars_to_test:
     
 
 
-    📊 UNRATE(%) - Shapiro-Wilk Test: p = 0.00000000 (Reject normality)
+    UNRATE(%) - Shapiro-Wilk Test: p = 0.00000000 (Reject normality)
        ➤ D’Agostino K² Test: p = 0.00000266 (Reject normality)
     ------------------------------------------------------------
 
@@ -1869,9 +1852,8 @@ for col in vars_to_test:
 
 The statistical distribution normality tests failed for every single variable (*except Inflation for the D'Agostino K-test). This means we will have to transform the data (log, square root, or box-cox) for parametric testing or linear regression modeling. However, tree-based models (like the random-forest we will use for classification) do not assume normality.
 
-
+## Visual Check for Linearity
 ```python
-# @title Visual Check for Linearity
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -1965,10 +1947,8 @@ for col in vars_to_plot:
 
 2.) The other variables have visually non-linear relationships. This means if we want to run a regression model we will have to use polynomial regression, transform the data, or use a non-parametric (assumption-dependent) model like random forests or a nueral network.
 
-
+## Check for Heteroskedasticity (OLS models fit, Breusch-Pagan Test)
 ```python
-# @title Check for Heteroskedasticity (OLS models fit, Breusch-Pagan Test)
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
@@ -2031,9 +2011,8 @@ This means the distrbutions violate the constant variance assumptions of paramet
 
 # 8.) Check for Outliers
 
-
+## Check for Outliers (IQR Method, Sorted by Date)
 ```python
-# @title Check for Outliers (IQR Method, Sorted by Date)
 
 outlier_iqr = {}
 outlier_details = []
@@ -2259,9 +2238,8 @@ _________________________________
 
 # Regression Models with CCI as Target
 
-
+## Polynomial Regression ML Model with CCI as target
 ```python
-# @title Polynomial Regression ML Model with CCI as target
 # ---------------------------
 # 1. Imports & Setup
 # ---------------------------
@@ -2348,11 +2326,10 @@ plt.show()
     
 
 
-
+## Polynomial w/ Ridge Regression Model with CCI as target
 ```python
-# @title Polynomial w/ Ridge Regression Model with CCI as target
 # -------------------------------
-# ✅ Ridge Regression Pipeline
+# Ridge Regression Pipeline
 # -------------------------------
 
 from sklearn.pipeline import Pipeline
@@ -2449,12 +2426,10 @@ print(X.columns.tolist())
 
 Note: We will have to remove new non-parameter columns introduced when resetting index'
 
-
+## Random Forest Model with CCI as Target Variable
 ```python
-# @title Random Forest Model with CCI as Target Variable
-
 # ===============================================
-# 🔮 Predicting Consumer Confidence Index (CCI)
+# Predicting Consumer Confidence Index (CCI)
 # With Random Forest + Enhanced Evaluation
 # ===============================================
 
@@ -2553,10 +2528,8 @@ print("💾 Model saved as consumer_confidence_model.pkl")
     💾 Model saved as consumer_confidence_model.pkl
 
 
-
+## Random Forest Model Feature Importance Plot
 ```python
-# @title Random Forest Model Feature Importance Plot
-
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -2577,9 +2550,8 @@ plt.show()
 
 # Random Forest Regressor for CCI as 6 month Foreward Forecasting (Leading) Indicator
 
-
+## Random Forest CCI Forecasting Model
 ```python
-# @title Random Forest CCI Forecasting Model
 
 # Use today's CCI to predict macro data 6 months ahead
 df["CCI_LEADS_6"] = df["CONSUMER CONF INDEX"].shift(-6)
@@ -2702,10 +2674,8 @@ print(results_df)
     6  QUARTERLY GDP GROWTH RATE (%)    0.1158  4.649000e-01
 
 
-
+## Standard Deviations of target variables for RMSE reference
 ```python
-# @title Standard Deviations of target variables for RMSE reference
-# @title Standard Deviations of target variables for RMSE reference
 
 # List of your target variables
 target_cols = [
@@ -3071,10 +3041,8 @@ display(std_dev_df)
 
 # Conclusions:
 
-
+## Standard Deviation of CCI for Reference
 ```python
-# @title Standard Deviation of CCI for Reference
-
 cci_std = df["CONSUMER CONF INDEX"].std()
 print(f"Standard Deviation of Consumer Confidence Index (CCI): {cci_std:.2f}")
 ```
@@ -3162,3 +3130,7 @@ Our analysis demonstrates a strong and quantifiable relationship between key eco
 * Play with CCI Lag period (3mo - 2yrs)
 * Update data set to include recent data
 * Include data influenced by the Covid-19 pandemic
+
+------------------------------------------------------------------------
+
+*Last updated: May 18, 2025 at 4:32 PM*
