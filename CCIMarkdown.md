@@ -38,12 +38,19 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Key Variables/Columns
       
-    -   Variable Breakdown
-
-    -   Missing Data & Cleaning 
+    -   Variable Breakdown & More Info
 
     -   Summary Statistics 
 
+-   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Preperatin)**
+
+    -   Outliers
+ 
+    -   Missing Data & Cleaning 
+
+    -   Model Input Selection
+
+    -   Regularization, Transformation, Scaling Notes
 -   **[Distributions & Assumptions](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Distributions-&-Assumptions)**
 
     -   Time-Series Plots: Monthly-averaged Variables
@@ -59,14 +66,6 @@ Collection Frequencies: Monthly and/or Quarterly
         -   Linearity
 
         -   Heteroskedasticity (Residual Variance)
-
--   **[Data Preperation](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Data-Preperatin)**
-
-    -   Outliers
-
-    -   Model Input Selection
-
-    -   Regularization, Transformation, Scaling Notes
 
 -   **[Machine Learning Models & Performance](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Machine-Learning-Models-&-Performance)**
 
@@ -217,7 +216,26 @@ print(df.head())
     3    123.831  
     4    124.780  
 
+------------------------------------------------------------------------
 
+## **Variable Breakdown & More Information:**
+
+| Attribute Name | Data Type | Unit of Measure | Type of Economic Indicator | Collection Frequency |
+|----------------|--------------|--------------|--------------|--------------|
+| DATE | Numeric, Interval | DateTime (yyyy-dd-mm) | N/A | Monthly |
+| UNRATE(%) | Numeric, Ratio | Percent (%) | Lagging | Monthly |
+| MONTHLY HOME SUPPLY | Numeric, Ratio | Months | Leading | Monthly |
+| MORTGAGE INT. MONTHLY AVG(%) | Numeric, Ratio | Percent (%) | Leading? | Monthly |
+| CSUSHPISA | Numeric, Interval | Index Value | Lagging | Monthly |
+| MED HOUSEHOLD INCOME | Numeric, Ratio | USD (\$) | Coincident | Monthly |
+| GDP PER CAPITA | Numeric, Ratio | USD (\$) | Coincident | Quarterly |
+| QUARTERLY REAL GDP | Numeric, Ratio | USD (\$ Billions) | Coincident | Quarterly |
+| QUARTERLY REAL GDP GROWTH RATE (%) | Numeric, Ratio | Percent (%) | Coincident | Quarterly |
+| CPI ALL Items | Numeric, Interval | Index Value | Lagging | Monthly |
+| INFLATION(%) | Numeric, Ratio | Percent (%) | Lagging | Monthly |
+| CONSUMER CONF INDEX | Numeric, Interval | Index Value | Leading | Monthly |
+
+------------------------------------------------------------------------
 ## Summary Statistics: Data Set Pre-cleaning & Preperation (Transposed)
 ```python
 
