@@ -80,7 +80,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Random Forest Model for CCI as forecaster
         
--   **[Evauations, Conclusions, & Findings](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Evaluation,-Conclusions,-&-Findings)**
+-   **[Evauations, Conclusions, & Findings](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#conclusions)**
 
     -   Notes on Performance Metrics
 
