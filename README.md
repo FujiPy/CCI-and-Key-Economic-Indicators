@@ -1,5 +1,7 @@
 # Understanding & Predicting the Consumer Confidence Index (CCI) Using Key Macroeconomic Indicators
 
+## Please Note that this README.md file provides a brief summary and description of the project. Please see the full Project Markdown File at this link: 
+
 **Author**: Max Fujimori
 
 **Institution**: Lafayette College '27 | Economics & Data Science  
