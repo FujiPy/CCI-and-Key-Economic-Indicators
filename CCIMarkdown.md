@@ -2370,21 +2370,31 @@ __________________________________
 Our analysis demonstrates a strong and quantifiable relationship between key economic indicators and the Consumer Confidence Index (CCI). Both the polynomial ridge regression model indicate that macroeconomic fundamentals such as unemployment, inflation, interest rates, and household income are powerful drivers of consumer sentiment. Notably, the random forest model marginally outperformed the regression approaches, suggesting that CCI is shaped by complex, interaction-driven relationships among these indicators. Among all variables, unemployment and home price levels consistently emerged as the most influential predictors. These results reinforce that CCI behaves as a coincident indicator, reflecting real-time economic conditions. Particularly those most visible to households, such as labor market strength and housing affordability. The high explanatory power of the models affirms the reliability of CCI as a sentiment barometer that reflects consumer perception of economic reality.
 
 
-
-
 **Goal 2: CCI as a forecast for other Economic Indicators:**
 
   When evaluated as a forecasting tool, the Consumer Confidence Index (CCI) demonstrated selective predictive strength across future economic indicators. Our random forest model concluded that CCI can be a useful leading indicator for demand-side economic conditions, particularly in the housing and income sectors, but was largely ineffective in our attempt to forecast variables that depend heavily on policy or structural dynamics. These results highlight that while CCI is effective as a leading indicator for consumption and housing-related outcomes, it is not sufficient alone to forecast broader or externally controlled macroeconomic shifts. In conclusion, CCI may reflect how consumers feel about the present and near-term economy but does not anticipate structural or policy shocks beyond their perception nor does it take into account bias or misperception.
+
+# **Business Application**
+
+This project demonstrates how machine learning techniques—specifically polynomial regression and random forest models—can be applied to analyze and prove the relationship between macroeconomic indicators and consumer sentiment, as captured by the Consumer Confidence Index (CCI). In the context of public policy and macroeconomic strategy, these tools offer powerful capabilities for interpreting how households perceive and respond to changes in real economic conditions.
+
+For policymakers, the ability to model sentiment in relation to economic fundamentals provides actionable insights into the effectiveness and public reception of policy interventions. For instance, understanding which indicators (e.g., unemployment rate, inflation, or median household income) most strongly influence consumer confidence can help in designing targeted fiscal or monetary responses during periods of economic uncertainty. A significant drop in sentiment ahead of observable economic deterioration may serve as an early-warning system, allowing governments or central banks to act preemptively.
+
+Furthermore, by evaluating CCI as a leading indicator, the models supported forecasting of specific short-term economic trends like housing demand. However, these forecasts largely proved inaccurate and highlight the volatility and unpredictability of future economic conditions. This project serves as a warning to institutions like central banks, treasury departments, or international organizations (e.g., IMF, OECD) when modeling economic outlooks, adjusting inflation targets, or issuing public communications intended to manage expectations.
+
+Overall, this project illustrates the practical use of machine learning in modeling the relationship between Economic Behavioral Sentiment data with that of traditional economic indicators, reinforcing the value of predictive modeling in macroeconomic planning and policy.
 
 # Next Steps & Continuations?
 
 * Retest with more robust regression models
 * Evaluate Volatility of Key Indicators
-* Causality Testing (Granger test) to evaluate cause and effect of indicators
+* Causality Testing (Granger test) to evaluate the cause and effect relationships of indicators
 * Play with CCI Lag period (3mo - 2yrs)
-* Update data set to include recent data
+* Update the Data set to include recent data
 * Include data influenced by the Covid-19 pandemic
 
+# Inquiries
+For inquiries about this project, please contact Max Fujimori (fujimorm@lafayette.edu)
 ------------------------------------------------------------------------
 
 *Last updated: May 18, 2025 at 4:32 PM*
