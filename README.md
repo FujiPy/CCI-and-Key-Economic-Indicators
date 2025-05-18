@@ -2,7 +2,7 @@
 
 ### Please Note that this README.md file provides a brief summary and description of the project. 
 
-### Please see the full Project Markdown File at this link: 
+### Please see the full Project Markdown File at this link: [Markdown Link](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md)
 
 **Author**: Max Fujimori
 
@@ -15,7 +15,8 @@
 
 - [Colab Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=Ix61nyLot8-F&uniqifier=1)
 - [Video Presentation]()
-- [Markdown File](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md)
+- [Full Project Markdown File](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md)
+- [Kaggle Data Set](https://www.kaggle.com/datasets/sagarvarandekar/macroeconomic-factors-affecting-us-housing-prices/data)
 
 ---
 
