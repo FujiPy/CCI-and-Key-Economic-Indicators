@@ -88,7 +88,7 @@ Collection Frequencies: Monthly and/or Quarterly
     
     -   Final Insights
       
--   **[Business Applications](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Business-Applications)**
+-   **[Business Applications](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#business-application)**
   
 -   **[Next Steps & Potential Continuations](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#next-steps--continuations)**
 
