@@ -5,6 +5,8 @@ Link to Kaggle Data Set: https://www.kaggle.com/datasets/shaswatatripathy/gdp-pe
 
 Link to Interactive Colab Notebook: [Colab Link: Jupyter Notebook](https://colab.research.google.com/drive/19OQg3i31eW9riXzYHS99ohoML-Kr_TGU#scrollTo=cKZvO69tHc3d&uniqifier=1)
 
+Link to README .io Webpage: https://fujipy.github.io/CCI-and-Key-Economic-Indicators/
+
 Link to Youtube Walkthrough Video: 
 
 **Data Set Info:**
