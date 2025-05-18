@@ -6,6 +6,8 @@
 
 **Author**: Max Fujimori
 
+**Contact:** fujimorm@lafayette.edu
+
 **Institution**: Lafayette College '27 | Economics & Data Science  
 
 
