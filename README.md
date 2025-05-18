@@ -37,11 +37,10 @@ Using machine learning models including **polynomial regression**, **ridge regre
 
 ## Sample Visuals
 
-### Random Forest Feature Importance  
-![Feature Importance](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/assets/feature_importance.png)
+### Feature Correlation Matrix 
+![png](CCIMarkdown_files/CCIMarkdown_37_0.png)
+### Random Forest Regression Model with CCI as Target Scatter Plot
 
-### Variable Trends Over Time  
-![Time Series](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/assets/time_series_plot.png)
 
 ---
 
