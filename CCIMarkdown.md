@@ -44,7 +44,7 @@ Collection Frequencies: Monthly and/or Quarterly
 
     -   Summary Statistics 
 
--   **[Distributions & Assumptions(https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Distributions-&-Assumptions)**
+-   **[Distributions & Assumptions](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md#Distributions-&-Assumptions)**
 
     -   Time-Series Plots: Monthly-averaged Variables
 
