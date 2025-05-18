@@ -1,6 +1,6 @@
 # Understanding & Predicting the Consumer Confidence Index (CCI) Using Key Macroeconomic Indicators
 
-### Please Note that this README.md file provides a brief summary and description of the project. 
+### Please note that this README.md file provides a brief summary and description of the project. 
 
 ### Please see the full Project Markdown File at this link: [Markdown Link](https://github.com/FujiPy/CCI-and-Key-Economic-Indicators/blob/main/CCIMarkdown.md)
 
