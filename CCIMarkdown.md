@@ -10,7 +10,7 @@ Link to README .io Webpage: https://fujipy.github.io/CCI-and-Key-Economic-Indica
 
 Link to Youtube Colab Walkthrough: https://www.youtube.com/watch?v=Zklkcrchbu0
 
-Link to Youtube Project Presentation:
+Link to Youtube Project Presentation: https://youtu.be/no8bqrgP5WA 
 
 
 ### **Data Set Info:**
