@@ -8,7 +8,7 @@ Link to Interactive Colab Notebook: [Colab Link: Jupyter Notebook](https://colab
 
 Link to README .io Webpage: https://fujipy.github.io/CCI-and-Key-Economic-Indicators/
 
-Link to Youtube Project Process Walkthrough:
+Link to Youtube Colab Walkthrough: https://www.youtube.com/watch?v=Zklkcrchbu0
 
 Link to Youtube Project Presentation:
 
